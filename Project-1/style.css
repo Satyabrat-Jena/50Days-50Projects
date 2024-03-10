@@ -6,6 +6,7 @@
 
 body{
     background-color: slategrey;
+    background: linear-gradient(slategrey,rgb(44, 49, 55));
     font-family: 'Muli';
     margin: 0;
     display: flex;
@@ -78,6 +79,7 @@ body{
 
 .panel.active h3{
     opacity: 1;
+    transition: opacity 0.9s ease-in;
 }
 .panel.active div{
     position: absolute;
